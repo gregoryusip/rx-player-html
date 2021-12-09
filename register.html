@@ -1,0 +1,99 @@
+
+<html>
+    <head>
+        <title>RX PLAYER</title>
+        <link rel="stylesheet" href="registerst.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="js/registerjs.js"></script>
+    </head>
+    <body>
+
+        <div id="halamanweb">
+            
+            <!--Header-->
+            <div id="header">
+                <a href="register.html">
+                    <h1>Subscribe to up-to-date news, events, and promotion!</h1>
+                </a>
+            </div>
+
+            <!--Navigasi-->
+            <div id="navbar">
+                <a href="homepage.html"><div id="menukiri">
+                    <img id="logokaset" src="gambar/Navbar/logokaset.png" alt="logo kaset">
+                    <img id="logotulisan" src="gambar/Navbar/logotulisan.png" alt="logo tulisan">
+                </div></a>
+                <div id="menukanan">
+                    <button id="menudrop"><img id="logomenudropdown" src="gambar/Navbar/menudropdown.png" alt="logo menu"></button>
+       
+                    <div id="isimenudrop">
+                        <a href="homepage.html">Home</a>
+                        <a href="premium.html">Premium</a>
+                        <a href="top10asianmusic.html">Top 10 Asian Music</a>
+                        <a href="musicbygenre.html">Music by Genre</a>
+                        <a href="register.html">Register</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Content1-->
+            <div id="wrapper">
+                <div id="judul">
+                    <h2>Register Your Self</h3>               
+                </div>
+
+                <div id="form">
+                    <form>
+                        <h3>Full Name</h3>
+                        <div id="field_input">
+                            <input id="inputnama" type="text" placeholder="Full Name" required="required">
+                        </div>
+
+                        <h3>Email</h3>
+                        <div id="field_input">
+                            <input id="inputemail" type="email" placeholder="Email" required="required">
+                        </div>
+
+                        <h3>Password</h3>
+                        <div id="field_input">
+                            <input id="inputpassword" type="password" placeholder="Password" required="required">
+                        </div>
+
+                        <h3>Gender</h3>
+                        <div id="gender">
+                            <form id="inputgender" name="genderForm" required="required">
+                                <input id="male" type="radio" value="male" name="gender"><label for="male">Male</label>
+                                <input id="female" type="radio" value="female" name="gender"><label for="female">Female</label>
+                            </form>
+                        </div>
+
+                        <h3>Payment Method</h3>
+                        <div id="selection">
+                            <select id="inputpayment" placeholder="Payment" required="required">
+                                <option value = "-1" selected>Payment</option>
+                                <option id="crecard" value ="1">Credit Card</option>
+                                <option id="decard" value ="2">Debit Card</option>
+                                <option id="creno" value ="3">Credit</option>
+                            </select>
+                        </div>
+
+                        <input type="checkbox" name="cekbox" id="inputcekbox" required="required"><label>I agree with the T&C</label>
+                        
+                        <div id="field_input">
+                            <button type="submit" onclick="submit()">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <!--Footer-->
+            <div id="Footer">
+                <h6>©RX PLAYER Company</h6>
+                <a href="https://www.facebook.com/"><img id="fg1" src="gambar/SocialMedia/fb.png" alt="facebook"></a>
+                <a href="https://www.twitter.com/"><img id="fg2" src="gambar/SocialMedia/tw.png" alt="twitter"></a>
+                <a href="https://www.instagram.com/"><img id="fg3" src="gambar/SocialMedia/ig.png" alt="instagram"></a>
+            </div>
+
+        </div>
+    </body>
+</html>
